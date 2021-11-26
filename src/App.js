@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
+import * as tt from '@tomtom-international/web-sdk-maps';
 
 const App = () => {
   const [map, setMap] = useState({});
